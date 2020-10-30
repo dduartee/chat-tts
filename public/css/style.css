@@ -1,0 +1,79 @@
+body {
+    font-family: Helvetica;
+    background: #f9f9f9;
+}
+
+.coll {
+    width: 75%;
+    /* tamanho colunas horizontal*/
+}
+
+.roww:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.moll {
+    width: 10%;
+}
+
+.camera {
+    width: 45%
+}
+
+#chatroom {
+    background-color: rgb(230 230 230);
+    border-radius: 4px;
+    width: 90%;
+    height: 80%;
+    overflow: auto;
+    border-style: groove;
+    overflow-wrap: break-word;
+    border: 1px solid #e2e2e2;
+}
+
+p.mensagem::after {
+    margin: 1;
+    width: 100%;
+    height: 30px;
+    font-size: medium;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+p.status {
+    bottom: 100%;
+    margin: 0px;
+    width: 100%;
+    height: 15px;
+    font-size: smaller;
+    font-style: italic;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+#msg_audio {
+    width: 90%;
+    height: 6%;
+    border: 1px solid #e2e2e2;
+}
+
+#enviar_audio {
+    width: 10%;
+    height: 6%;
+    border: 1px solid #e2e2e2;
+}
+
+#user {
+    width: 40%;
+    height: 6%;
+    padding: 10px;
+    border: 1px solid #e2e2e2;
+}
+
+#trocar_user {
+    width: 10%;
+    height: 6%;
+    padding: 10px;
+    border: 1px solid #e2e2e2;
+
+}
